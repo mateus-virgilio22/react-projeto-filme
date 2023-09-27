@@ -1,0 +1,7 @@
+.container_card {
+    margin-top: 4rem;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
