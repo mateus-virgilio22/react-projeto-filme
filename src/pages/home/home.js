@@ -2,7 +2,6 @@ import React from 'react';
 import './home.css';
 import Banner from '../../components/banner/banner';
 import Card from '../../components/card/card';
-import Header from '../../components/header/header';
 import Sinopse from '../../components/sinopse/sinopse';
 import CARD_1 from '../../assets/imagens/personagem1.jpeg';
 import CARD_2 from '../../assets/imagens/personagem2.jpg';
@@ -11,7 +10,6 @@ import CARD_3 from '../../assets/imagens/personagem3.jpg';
 function Home() {
     return (
         <div>
-            <Header />
             <Banner />
             <Sinopse />
             <div className="container_card">
