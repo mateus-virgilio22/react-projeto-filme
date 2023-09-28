@@ -26,15 +26,12 @@ nav > ul {
     justify-content: space-around;
 }
 
-nav > ul > a {
-    text-decoration: none;
-}
-
-nav > ul > a > li {
+nav > ul > li {
+    cursor: pointer;
     list-style: none;
     color: #ffffff;
 }
 
-nav > ul > a > li:hover {
+nav > ul > li:hover {
     color: red;
 }
