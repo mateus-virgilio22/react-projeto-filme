@@ -5,6 +5,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Home from './pages/home/home';
 import Fotos from './pages/fotos/fotos';
+import Comentarios from './pages/comentarios/comentarios';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/fotos' element={<Fotos />} />
+          <Route path='/comentarios' element={<Comentarios/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
