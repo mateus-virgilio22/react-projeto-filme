@@ -1,0 +1,9 @@
+.image-slider {
+    width: 300px;
+}
+
+.img_slide {
+    width: 300px;
+    height: 450px;
+    cursor: pointer;
+}
